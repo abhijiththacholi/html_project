@@ -1,0 +1,266 @@
+body {
+    background-color: #EFF8ED;
+
+}
+
+h3 {
+    color: #252B42;
+    text-align: center;
+    top: 13px;
+}
+
+header {
+    background-color: #EFF8ED;
+}
+
+.container_lg {
+
+    width: 90%;
+    margin: auto;
+
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+}
+
+.brandname {
+    display: flex;
+    align-items: end;
+    justify-content: flex-end;
+    width: 30%;
+}
+
+.navbar_list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.navbar_list ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 21px;
+}
+
+.navbar_list li a {
+    text-decoration: none;
+    color: #737373;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.nav_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    gap: 10px;
+    gap: 45px;
+}
+
+.nav_btn a {
+    text-decoration: none;
+    color: #96BB7C;
+    font-size: 14px;
+    font-weight: 700;
+
+}
+
+.filled_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: #96BB7C;
+    color: #fff;
+    max-width: 137px;
+    padding: 15px;
+    max-height: 52px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+h5 {
+    color:#96BB7C;
+    display: flex;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+h1 {
+    color: #252B42;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 80px;
+    width: 542px;
+    height: 160px;
+}
+
+h4 {
+    color: #737373;
+    font-family: "Montserrat", sans-serif;
+    width: 458px;
+    height: 60px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.hero_btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.hero_bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.main_content{
+    background-color: #FFFFFF;
+}
+
+.border_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-color: #96BB7C;
+    background-color: transparent;
+    color: #96BB7C;
+    border-radius: 3px;
+    padding: 15px;
+    border: 1px solid;
+    font-size: 14px;
+    font-weight: 700px;
+    max-height: 52px;
+    max-width: 162px;
+}
+
+image {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex flex-end;
+    max-width: 661px;
+    max-height: 674.92px;
+    left: 7px;
+    top: 12px;
+}
+.container_slg{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    width: 75%;
+    font-family: "Montserrat", sans-serif;
+    margin: auto;
+    color:#FFFFFF ;
+    
+
+
+
+}
+.super_bar{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-items: flex-start;
+    color: #FFFFFF;
+    
+}
+
+hr{
+    width: 50px;
+    height: 2px;
+    background-color:#E74040;
+    border: none;
+}
+
+h6{
+    display: flex;
+    align-items: center;
+    color: #96BB7C;
+    max-width: 114px;
+    max-height: 24px;
+    font-weight: 700;
+    font-size: 14px;
+    
+}
+h2{
+    display: flex;
+    align-items: center;
+    font-weight: 700px;
+    font-size: 40px;
+    color:#252B42 ;
+}
+p{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    font-weight: 400px;
+    color:#737373;
+    font-size: 14px;
+    max-width: 469px;
+    max-height: 40px;
+    line-height: 20px;
+}
+.card{
+    width: 238px;
+    height: 288px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    background-color:#FFFFFF;
+    box-shadow: 0px 13px 19px 0px#00000012;
+    text-align:initial
+   
+}
+
+.row_cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    
+}
+.advice{
+    margin: 50px 0px  ;  
+}
+.card{
+    width: 238px;
+    height: 288px;
+}
+
+
+h5{
+    display: flex;
+    align-items: center;
+    color: #252B42;
+    font-weight: 700px;
+    max-width: 135px;
+    max-height:24px;
+}
+.p{
+    text-align: center;
+}
+
+
+
+
+
+
+
