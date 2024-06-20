@@ -160,10 +160,7 @@ image {
     display: flex;
     align-items: flex-end;
     justify-content: flex flex-end;
-    max-width: 661px;
-    max-height: 674.92px;
-    left: 7px;
-    top: 12px;
+  
 }
 
 .container_slg {
@@ -181,16 +178,7 @@ image {
     justify-content: flex-start;
 }
 
-hr {
-    width: 50px;
-    height: 2px;
-    background-color: #E74040;
-    border: none;
-    align-items: flex-start;
-    display: flex;
-    justify-content: flex-start;
 
-}
 
 h6 {
     display: flex;
@@ -221,7 +209,7 @@ h2 {
     text-align: start;
     color: #737373;
     max-width: 469px;
-    height: 40px;
+    /* height: 40px; */
     font-weight: 400px;
     font-size: 14px;
 }
@@ -258,7 +246,7 @@ h2 {
 
 
 
-h5 {
+.card h5{
     display: flex;
     align-items: center;
     color: #252B42;
@@ -280,6 +268,7 @@ h5 {
     justify-content: space-between;
 }
 
+
 .advice_sc {
     display: flex;
     flex-direction: column;
@@ -300,6 +289,8 @@ h5 {
 hr {
     width: 94px;
     height: 7px;
+    background-color: #E74040;
+    border: none;
     align-items: flex-start;
     display: flex;
     justify-content: flex-start;
@@ -339,13 +330,6 @@ hr {
 
 }
 
-/* .fourth_bar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 100px 0px 100px 0px;
-    gap: 200px; }
-    */
 
 .advice_two {
     display: flex;
@@ -384,27 +368,75 @@ hr {
     gap: 30px;
 
 }
-.cardss_img{
-    width: 22%;
+
+/* cards */
+
+.cardimg {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: fit-content;
 }
 
-.cardss_img img{
-    position: relative;
+.cardimg img {
+    border-radius: 10px;
 }
 
-.card_level{
-    position: relative;
-    justify-content: space-evenly;
+.cardimg::before {
+    content: "Sale";
+    color: var(--light-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    background-color: red;
+    padding: 5px 10px;
+    left: 20px;
+    top: 20px;
+    position: absolute;
+    justify-self: flex-start;
+    border-radius: 3px;
+}
+
+.icon_btn {
+    position: absolute;
+    left: 0;
+    right: 0;
     display: flex;
-    bottom: 60px;
-    width: 100%;
+    justify-content: center;
+    gap: 10px;
+    bottom: 24px;
+    cursor: pointer;
+
 }
-.circle_wht{
-    border-radius: 40px;
-    background-color: #fff;
+
+.icon_btn .transparent_btn {
+    background-color:#FFFFFF;
+    border: none;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 35px;
-    height: 35px;
 }
+.advice_textbar{
+    display:flex;
+    align-items: center;
+    
+
+}
+.rating{
+    display: flex;
+    align-items: center;
+}
+
+.rating .material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24;
+  color: yellow;
+  
+}
+
+
