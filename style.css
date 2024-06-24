@@ -23,6 +23,7 @@ h3 {
 
 .color_bg_light {
     background-color: #FFFFFF;
+
 }
 
 .container {
@@ -160,7 +161,7 @@ image {
     display: flex;
     align-items: flex-end;
     justify-content: flex flex-end;
-  
+
 }
 
 .container_slg {
@@ -184,34 +185,34 @@ h6 {
     display: flex;
     align-items: center;
     color: #96BB7C;
-    max-width: 114px;
-    max-height: 24px;
     font-weight: 700;
     font-size: 14px;
+    margin: 0;
 
 }
 
-h2 {
+/* h2 {
     display: flex;
     align-items: center;
     justify-content: center;
+
+} */
+
+.advice h2 {
+    max-width: 691px;
     font-weight: 700;
     font-size: 40px;
     color: #252B42;
-}
-
-.advice h2 {
-    width: 435px;
-    height: 15px;
+    margin: 0;
 }
 
 .advice p {
     text-align: start;
     color: #737373;
     max-width: 469px;
-    /* height: 40px; */
     font-weight: 400px;
     font-size: 14px;
+    margin: 0;
 }
 
 .card p {
@@ -238,15 +239,16 @@ h2 {
 }
 
 .advice {
-    gap: 5px;
+    gap: 20px;
     display: flex;
     flex-direction: column;
-    margin: 50px 0px;
+    padding-bottom: 100px;
+
 }
 
 
 
-.card h5{
+.card h5 {
     display: flex;
     align-items: center;
     color: #252B42;
@@ -266,6 +268,11 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+}
+
+.third_bar img {
+    border-radius: 15px;
 }
 
 
@@ -276,7 +283,10 @@ h2 {
     justify-content: flex-start;
     gap: 25px;
 
+
 }
+
+
 
 .advice_sc a {
     display: flex;
@@ -285,6 +295,7 @@ h2 {
     text-decoration: none;
     color: #96BB7C;
 }
+
 
 hr {
     width: 94px;
@@ -300,18 +311,16 @@ hr {
 .advice_sc h2 {
     display: flex;
     align-items: center;
-    width: 243px;
-    height: 100px;
     font-weight: 700;
     font-size: 40px;
     gap: 15px;
+    margin: 0;
 }
 
 .advice_sc p {
     display: flex;
     align-items: center;
     width: 351px;
-    height: 60px;
     color: #737373;
 
 }
@@ -339,11 +348,6 @@ hr {
     gap: 20px;
 }
 
-.advice_two h2 {
-    width: 460px;
-    height: 50px;
-
-}
 
 
 
@@ -353,6 +357,13 @@ hr {
     max-height: 60px;
     font-size: 14px;
     text-align: start;
+}
+
+
+.card_group {
+    display: flex;
+    flex: 1;
+    border: 2px solid red;
 }
 
 .advice_two a {
@@ -370,15 +381,15 @@ hr {
 }
 
 /* cards */
-
+/* 
 .cardimg {
     margin: 0;
     padding: 0;
     position: relative;
     width: fit-content;
-}
+} */
 
-.cardimg img {
+/* .cardimg img {
     border-radius: 10px;
 }
 
@@ -396,7 +407,7 @@ hr {
     border-radius: 3px;
 }
 
-.icon_btn {
+.iconbtn {
     position: absolute;
     left: 0;
     right: 0;
@@ -405,8 +416,8 @@ hr {
     gap: 10px;
     bottom: 24px;
     cursor: pointer;
-
 }
+
 
 .icon_btn .transparent_btn {
     background-color:#FFFFFF;
@@ -427,16 +438,232 @@ hr {
 .rating{
     display: flex;
     align-items: center;
+} */
+
+
+/* frames
+.card_frame{
+    background-color: white;
+} */
+.carddetails {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.product_cover {
+    position: relative;
+    text-align: center;
+}
+
+.product_cover_img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.card_label {
+    padding: 0px 10px;
+    background-color: #E74040;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+}
+
+.iconbtn {
+    position: absolute;
+    bottom: 24px;
+    left: 0px;
+    right: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.iconbtn button {
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
 }
 
 .rating .material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 1,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 24;
-  color: yellow;
-  
+    font-variation-settings:
+        'FILL' 1,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24;
+    color: yellow;
+
+}
+
+.rating {
+    /* margin-top: 28px;
+    margin-left: 10px; */
+    background-color: #2D4059;
+    color: white;
+    border-radius: 15px;
+    padding: 4px;
+}
+
+.frame_heads_top {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.star_symbol_icon {
+    color: #FFCE31;
+    font-size: 18px;
+}
+
+.frame_button .border_btn {
+    border-radius: 12px;
+    background-color:#FFFFFF;
+    border: 1px solid #96BB7C;
+   
+    padding: 15px;
+    border-radius:50px;
+
+
+}
+
+.sale_box{
+    display :flex;
+}
+.sale_text{
+    margin-left: 10px;
+    margin-top: 3px;
+    color: #737373;
+    font-weight: 700;
+}
+.frame_button  .learn_more_button{
+    font-weight: 700;
+    color: #96BB7C;
+}
+
+.span_price{
+    color: #FFAB71;
+    
+}
+.frame_heads p{
+    color:#737373;
+    font-weight: 400;
+    max-width: 200px;
+    
+}
+/* /box */
+.three_box_section{
+    display: flex;
+    gap: 30px;
+}
+.description p{
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+.section-box {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 40px;
+    background-color: #ffffff;
+    box-shadow: 0px 13px 19px 0px #00000012;
+
 }
 
 
+
+.love-circle {
+    background-color: #96BB7C;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.love_symbol {
+    color: white;
+    font-size: 53px;
+}
+
+.price-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.free h4{
+    font-weight: 700;
+    color:#252B42;
+
+}
+.words-section h6{
+    font-weight: 700;
+    color: #737373;
+    
+}
+.price-section h2{
+    color:#96BB7C;
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+   
+}
+.price-section h6{
+    color: #8EC2F2;
+    margin-top: 14px;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 50px;
+   
+}
+.profiles{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.photo_frame{
+    max-width: 128px;
+}
+
+.photo_frame img{
+    border-radius: 50%;
+}
+.pro p{
+    font-size: 14px;
+    font-weight:400;
+    color: #737373;
+    max-width: 320px;
+    text-align: center;
+  
+}
+.photo_rating .star_symbol_icon{
+    font-size: 30px;
+}
+.frame_name h5{
+    color: #252B42;
+    font-weight: 700;
+    font-size: 16px;
+}
+.Designe h6{
+    margin-top: 0px;
+}

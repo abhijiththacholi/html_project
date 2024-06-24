@@ -1,0 +1,46 @@
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+}
+
+.section-box {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    width: 380px;
+    background-color: #ffffff;
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+
+}
+
+
+
+.love-circle {
+    background-color: #96BB7C;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.love_symbol {
+    color: white;
+    font-size: 53px;
+}
+
+.price-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
