@@ -682,10 +682,49 @@ hr {
 
 }
 
+/* 
 label {
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
 
+
+    border: none;
+   
+    height: 50px;
+    
+}
+    */
+.mail_deatils {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.email-button-group {
+    display: flex;
+    align-items: center;
+
+}
+
+.email-input {
+    padding: 10px;
+    font-size: 16px;
+    width: 500px;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    flex: 1;
+}
+
+.button-email {
+    border: none;
+    padding: 10px;
+    background-color: #96BB7C;
+    color: white;
+    font-size: 12px;
+    border-radius: 0px 4px 4px 0;
 }
