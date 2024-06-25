@@ -160,7 +160,7 @@ h4 {
 image {
     display: flex;
     align-items: flex-end;
-    justify-content: flex flex-end;
+
 
 }
 
@@ -191,12 +191,16 @@ h6 {
 
 }
 
-/* h2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+/* ********* */
 
-} */
+
+.advice {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px;
+
+}
 
 .advice h2 {
     max-width: 691px;
@@ -215,11 +219,38 @@ h6 {
     margin: 0;
 }
 
-.card p {
-    font-weight: 400px;
-    color: #737373;
-    font-size: 14px;
+.row_card_text h5 {
+    display: flex;
+    flex-direction: column;
+    color: #252B42;
+    font-weight: 700;
+    font-size: 16px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
 }
+
+.row_card_text h5::after {
+    content: "";
+    width: 50px;
+    height: 2px;
+    background-color: red;
+}
+
+.row_card_text p {
+    font-weight: 700px;
+    color: #737373;
+    font-size: 16px;
+    font: 400;
+}
+
+.row_card_text hr {
+    max-width: 50px;
+    max-height: 2px;
+}
+
+
+
 
 .card {
     width: 238px;
@@ -238,17 +269,8 @@ h6 {
 
 }
 
-.advice {
-    gap: 20px;
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 100px;
 
-}
-
-
-
-.card h5 {
+.row_head h5 {
     display: flex;
     align-items: center;
     color: #252B42;
@@ -380,71 +402,10 @@ hr {
 
 }
 
-/* cards */
-/* 
-.cardimg {
-    margin: 0;
-    padding: 0;
-    position: relative;
-    width: fit-content;
-} */
-
-/* .cardimg img {
-    border-radius: 10px;
-}
-
-.cardimg::before {
-    content: "Sale";
-    color: var(--light-text-color);
-    font-weight: 700;
-    font-size: 14px;
-    background-color: red;
-    padding: 5px 10px;
-    left: 20px;
-    top: 20px;
-    position: absolute;
-    justify-self: flex-start;
-    border-radius: 3px;
-}
-
-.iconbtn {
-    position: absolute;
-    left: 0;
-    right: 0;
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    bottom: 24px;
-    cursor: pointer;
-}
 
 
-.icon_btn .transparent_btn {
-    background-color:#FFFFFF;
-    border: none;
-    border-radius: 50%;
-    height: 40px;
-    width: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.advice_textbar{
-    display:flex;
-    align-items: center;
-    
-
-}
-.rating{
-    display: flex;
-    align-items: center;
-} */
-
-
-/* frames
-.card_frame{
-    background-color: white;
-} */
+/* ********** */
+/* second card section */
 .carddetails {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -506,8 +467,7 @@ hr {
 }
 
 .rating {
-    /* margin-top: 28px;
-    margin-left: 10px; */
+
     background-color: #2D4059;
     color: white;
     border-radius: 15px;
@@ -528,49 +488,67 @@ hr {
 
 .frame_button .border_btn {
     border-radius: 12px;
-    background-color:#FFFFFF;
+    background-color: #FFFFFF;
     border: 1px solid #96BB7C;
-   
+
     padding: 15px;
-    border-radius:50px;
+    border-radius: 50px;
 
 
 }
 
-.sale_box{
-    display :flex;
+
+
+.card_text h5 {
+    color: #252B42;
+    font-weight: 700;
+    font-size: 16px;
+    align-items: center;
 }
-.sale_text{
+
+.card_text p {
+    color: #737373;
+    font-weight: 400;
+    font-size: 14px;
+
+}
+
+.sale_box {
+    display: flex;
+}
+
+.sale_text {
     margin-left: 10px;
     margin-top: 3px;
     color: #737373;
     font-weight: 700;
 }
-.frame_button  .learn_more_button{
+
+.frame_button .learn_more_button {
     font-weight: 700;
     color: #96BB7C;
 }
 
-.span_price{
+.span_price {
     color: #FFAB71;
-    
+
 }
-.frame_heads p{
-    color:#737373;
-    font-weight: 400;
-    max-width: 200px;
-    
-}
-/* /box */
-.three_box_section{
+
+/* ************ */
+
+/* three box section */
+
+.three_box_section {
     display: flex;
     gap: 30px;
 }
-.description p{
+
+.description p {
     font-size: 14px;
     font-weight: 400;
     text-align: center;
 }
+
 .section-box {
     justify-content: center;
     align-items: center;
@@ -605,65 +583,109 @@ hr {
     align-items: center;
     justify-content: center;
 }
-.free h4{
+
+.free h4 {
     font-weight: 700;
-    color:#252B42;
+    color: #252B42;
 
 }
-.words-section h6{
+
+.words-section h6 {
     font-weight: 700;
     color: #737373;
-    
+
 }
-.price-section h2{
-    color:#96BB7C;
+
+.price-section h2 {
+    color: #96BB7C;
     font-size: 40px;
     padding: 0;
     margin: 0;
-   
+
 }
-.price-section h6{
+
+.price-section h6 {
     color: #8EC2F2;
     margin-top: 14px;
     padding: 0;
     margin: 0;
     margin-bottom: 50px;
-   
+
 }
-.profiles{
+
+/* ********** */
+/* profile section */
+
+.profiles {
     display: flex;
     justify-content: space-evenly;
 }
 
-.pro{
+.pro {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.photo_frame{
+
+.photo_frame {
     max-width: 128px;
 }
 
-.photo_frame img{
+.photo_frame img {
     border-radius: 50%;
 }
-.pro p{
+
+.pro p {
     font-size: 14px;
-    font-weight:400;
+    font-weight: 400;
     color: #737373;
     max-width: 320px;
     text-align: center;
-  
+
 }
-.photo_rating .star_symbol_icon{
+
+.photo_rating .star_symbol_icon {
     font-size: 30px;
 }
-.frame_name h5{
+
+.frame_name h5 {
     color: #252B42;
     font-weight: 700;
     font-size: 16px;
 }
-.Designe h6{
-    margin-top: 0px;
+
+.Designe h6 {
+    margin-top: 1px;
+}
+
+
+/* ********* */
+/* gmail section */
+
+.color_bg_dark {
+    background-color: #FFF2F3;
+    margin-top: 100px;
+}
+
+.color_bg_dark .advice {
+
+    align-items: center;
+    justify-content: center;
+}
+
+.color_bg_dark .advice p {
+    align-items: center;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+
+}
+
+label {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
