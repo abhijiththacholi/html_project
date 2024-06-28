@@ -51,7 +51,7 @@ section {
   justify-content: space-between;
   width: 100%;
 }
-.navbar_list ul :hover{
+.navbar_list ul :hover {
   color: #96bb7c;
 }
 
@@ -79,8 +79,8 @@ section {
   gap: 45px;
 }
 
-.nav_btn :hover{
-  color:black
+.nav_btn :hover {
+  color: black;
 }
 
 .nav_btn a {
@@ -89,7 +89,6 @@ section {
   font-size: 14px;
   font-weight: 700;
 }
-
 
 .filled_button {
   display: flex;
@@ -105,6 +104,12 @@ section {
   font-weight: 700;
 }
 
+.hero_btn .filled_button:hover {
+  transition: 0.3s;
+  background-color: transparent;
+  border: 1px solid #96bb7c;
+  color: #96bb7c;
+}
 
 h5 {
   color: #96bb7c;
@@ -158,6 +163,12 @@ h4 {
   border: 1px solid;
   font-size: 14px;
   font-weight: 700;
+}
+
+.hero_btn .border_button:hover {
+  background-color: #96bb7c;
+  color: white;
+  transition: 0.3s;
 }
 
 image {
@@ -256,6 +267,18 @@ h6 {
   gap: 30px;
 }
 
+
+.card:hover {
+background-color:#96bb7c;
+}
+
+.card:hover h5{
+  color: white;
+}
+.card:hover p{
+  color: #ffff;
+}
+
 .row_head h5 {
   display: flex;
   align-items: center;
@@ -280,7 +303,6 @@ h6 {
 .third_bar img {
   border-radius: 15px;
 }
-
 
 .advice_sc {
   display: flex;
@@ -330,6 +352,10 @@ h6 {
   justify-content: center;
   text-decoration: none;
   color: #96bb7c;
+  font-weight: 700;
+}
+.advice_sc a:hover {
+  color: blueviolet;
 }
 
 hr {
@@ -442,6 +468,11 @@ hr {
   justify-content: center;
   gap: 10px;
 }
+.iconbtn :hover{
+  color: gray;
+  
+
+}
 
 .iconbtn button {
   background-color: white;
@@ -515,6 +546,11 @@ hr {
   font-weight: 700;
   color: #96bb7c;
 }
+.frame_button .learn_more_button:hover{
+  color:blueviolet;
+  border-color: blueviolet;
+}
+
 .price {
   color: #bdbdbd;
   gap: 5px;
@@ -554,25 +590,35 @@ hr {
   background-color: #2d4059;
   color: white;
 }
-
-.new-text{
-    color: white;
+.section-box:hover h4{
+  color: #ffffff;
 }
-.new-wrap{
-     position: relative;
+.section-box:hover h6{
+  color: #ffffff;
+}
+.section-box:hover p{
+  color: #ffffff;
+}
+
+.new-text {
+  color: white;
+}
+.new-wrap {
+  position: relative;
   display: inline-block;
 }
 
 .new-circle {
-
   border-radius: 50%;
-  background-color:  #E77C40;
-color:white;
+  background-color: #e77c40;
+  color: white;
   position: absolute;
-height: 70px;
-width: 70px;
-  transform: translate(166%,-110%);
-
+  height: 100px;
+  width: 100px;
+  transform: translate(90%, -100%);
+}
+.new-circle h3 {
+  font-size: 30px;
 }
 
 .love-circle {
@@ -643,6 +689,12 @@ width: 70px;
   font-weight: 700;
   max-width: 243px;
   padding: 15px 70px;
+}
+.filled_free_btn:hover{
+  background-color:gray;
+  color: black;
+  transition: 0.3s;
+
 }
 .three_box_deatils {
   display: flex;
@@ -767,6 +819,14 @@ width: 70px;
   width: 117px;
   height: 58px;
 }
+
+.button-email:hover{
+  background-color:gray;
+  color: black;
+  transition: 0.3s;
+}
+
+/* footer sdection */
 
 .row_footer {
   display: grid;
