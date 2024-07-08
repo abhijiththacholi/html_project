@@ -89,6 +89,63 @@ section {
   font-weight: 700;
 }
 
+.drop_list {
+  display: none;
+  min-width: 100px;
+  background-color: var(--background-shade-lite);
+  box-shadow: 0 13px 19px 0 #00000012;
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+
+.drop_list ul {
+  display: block;
+  padding: 0;
+}
+
+.drop_list ul li a {
+  text-align: center;
+  color: var(--secondary-text-color);
+  font-size: 12px;
+  font-weight: 600;
+  margin: 10px;
+}
+
+.navlink ul li:hover .drop_list {
+  display: block;
+}
+
+/* side drop */
+
+.drop_list1 {
+  background-color: var(--background-shade-lite);
+  display: none;
+  box-shadow: 0 13px 19px 0 #00000012;
+  position: absolute;
+  top: -5px;
+  right: -109px
+}
+
+.drop_list1 ul {
+  display: block;
+  padding: 0;
+}
+
+.drop_list1 ul li a {
+  text-align: center;
+  display: inline-flex;
+  color: var(--secondary-text-color);
+  font-size: 12px;
+  font-weight: 600;
+  margin: 10px;
+}
+
+.drop_list ul li:hover .drop_list1 {
+  display: block;
+  transition: 3s ease-in-out;
+}
+
 
 .filled_button {
   display: flex;
