@@ -191,7 +191,7 @@ h5 {
   max-width: 370px;
   font-weight: 400;
   font-size: 20px;
-  line-height: 30px;
+  /* line-height: 30px; */
 }
 
 .hero_btn {
